@@ -1,7 +1,5 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
@@ -16,9 +14,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Policy research and analysis, strategic planning, policy writing, statutory interpretation, stakeholder engagement, project management, written communication, comparative research, evidence-based briefings for decision-makers
+**Moderate match areas:** GIS/spatial analysis (ArcGIS, QGIS — emerging), AI tool fluency, data analysis, urban design assessment
+**Weak match areas:** Formal programming/coding, quantitative data science, financial modelling, engineering, scientific fieldwork
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +28,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Urban/environmental planning, policy development, plan change processes, regulatory assessment, Auckland Unitary Plan, NZ planning law
+**Moderate:** GIS/spatial analysis, sustainability/ESG policy, transport planning, research and analysis in non-planning sectors, consulting
+**Entry-level / career change:** Geospatial science roles, data analyst roles, international development, smart cities/urban tech
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -44,13 +42,14 @@ Does the role and company culture match the behavioral profile?
 | 40-59 | Some friction areas |
 | 0-39 | Significant culture mismatch |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Green flags:** Analytical culture, outcomes-focused, values written rigor, autonomous work, clear deliverables, low internal politics, international team
+**Red flags:** High-conflict or adversarial environments, strong sales culture, politically charged internal dynamics, micromanagement, roles dominated by meetings over outputs
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- International role (Nordic, Canada, Melbourne, Singapore): PASS (preferred)
+- Remote/remote-friendly with international team: PASS
+- Role within New Zealand: FAIL unless exceptional circumstances (flag to user)
+- Requires immediate relocation with no support: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +62,20 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Transition away from politically charged local government planning
+- Move toward geospatial science/GIS as a core discipline (formal study planned 2027)
+- Build analytical and technical skills in a new sector context
+- Work in an international environment
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: deep research and analysis, synthesising complex information, using technology and AI tools, spatial/geospatial thinking, producing clear written outputs for decision-makers
+- Tasks that drain: constant justification of decisions in adversarial settings, high-volume public-facing interactions, politically contested policy environments
+- Non-task factors: leadership style (autonomous preferred), culture (outcomes-focused over process-focused), degree of political friction, geographic location (international preferred)
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Life situation alignment:**
+- **Flexibility:** Open to international relocation; remote work also acceptable
+- **Career transition:** Actively seeking to pivot; a role that bridges planning expertise into a new sector is strategically valuable even if not a perfect technical fit
+- **GIS study path:** Roles that would complement or feed into future GIS/geospatial study are particularly valuable
 
 ### 6. Salary Benchmark (Optional)
 
@@ -94,8 +94,6 @@ Present findings as:
 | [Category] index | XX.X (+/-X.X% vs baseline) |
 | Overall index | XX.X (+/-X.X% vs baseline) |
 ```
-
-Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
 
 If the salary tool is not configured, skip this section.
 
@@ -129,7 +127,7 @@ Present the evaluation as:
 
 ### Company Research Checklist
 - [ ] Checked company website (mission, values, recent news)
-- [ ] Checked review sites (Glassdoor, Jobindex, etc.)
+- [ ] Checked review sites (Glassdoor, LinkedIn, etc.)
 - [ ] Checked LinkedIn for team size, recent hires, connections
 - [ ] Checked media for restructuring, growth, or workplace issues
 - [ ] Identified network contacts who may know the team/manager

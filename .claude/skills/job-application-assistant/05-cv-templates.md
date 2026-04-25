@@ -1,7 +1,5 @@
 # CV Templates and Tailoring Guide
 
-<!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
-
 ## Template: LaTeX moderncv (Banking Style)
 
 All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
@@ -32,110 +30,106 @@ All CVs use the moderncv LaTeX package with the "banking" style and "blue" color
 
 % Personal data
 \name{[FIRST_NAME]}{[LAST_NAME]}
-\address{[YOUR_ADDRESS]}{}{}
+\address{Auckland, New Zealand}{}{}
 \phone[mobile]{[YOUR_PHONE]}
 \email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}}
 
 \begin{document}
 \makecvtitle
 
 % 1. Profile statement (1-3 sentences, tailored per role)
-% 2. Skills section
-% 3. Education section
-% 4. Professional Experience section
-% 5. Selected Publications (if applicable)
-% 6. Honors and Awards (if applicable)
-% 7. References
+% 2. Core Competencies section
+% 3. Professional Experience section
+% 4. Education section
+% 5. References
 
 \end{document}
 ```
 
+## Profile Statement Templates
+
+This is the most important section to customize. Write 4-6 lines as an elevator pitch explaining why you're qualified for *this specific role*.
+
+### For GIS / Spatial Analyst roles:
+> Planning and policy professional with 10+ years of experience in strategic research, spatial analysis and evidence-based policy development. Brings practical GIS skills (ArcGIS, QGIS) developed through urban planning practice, complemented by active development of geospatial capabilities through Esri training. Experienced in translating spatial data into clear analytical outputs for decision-makers. Applies AI tools including Claude Code daily to enhance research workflows and output quality.
+
+### For Policy Analyst / Research Analyst roles:
+> Strategic policy professional with 10+ years of progressive experience in urban planning, policy research and analysis. Proven ability to synthesise complex research into clear, evidence-based recommendations for senior decision-makers and elected members. Led the city centre workstream of Plan Change 78 from concept to operative — one of Auckland Council's most significant statutory planning processes. Seeking to apply rigorous research, analysis and policy skills in a new sector context.
+
+### For Urban / Town Planner roles (international):
+> Senior policy planner with 10+ years of experience in strategic urban planning and policy development at Auckland Council, New Zealand's largest local authority. Led city centre provisions for Plan Change 78 from concept through to made operative, coordinating multi-party statutory processes and delivering complex policy outcomes. Skilled in comparative international planning research, spatial analysis and stakeholder engagement at decision-maker level. Available for international relocation.
+
+### For Planning Consultant / Advisory roles:
+> Experienced urban planning and policy professional with a strong record of leading complex, multi-party statutory planning processes for one of the Southern Hemisphere's largest cities. Combines deep policy analysis and statutory planning expertise with practical GIS skills and a proactive approach to AI-assisted research and workflow automation. Brings a consultancy mindset to public sector experience — focused on outcomes, evidence and clear deliverables.
+
+### For Sustainability / ESG roles:
+> Policy and research professional with 10+ years of experience in environmental planning, land use policy and sustainability analysis. Background in resource management law, sustainable development frameworks and comparative policy research. Experienced in synthesising complex regulatory and environmental information into evidence-based recommendations. Actively developing geospatial capabilities to complement policy skills.
+
 ## Section-by-Section Tailoring
-
-### Profile Statement / Elevator Pitch (Best Practice)
-This is the most important section to customize. It appears right after `\makecvtitle`.
-
-Write 5-7 lines that function as an "elevator pitch": a concise, compelling introduction explaining why you're qualified for *this specific role*. Focus on what the employer gains from hiring you.
-
-**Create 2-3 profile statement templates for your main role types:**
-
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
-
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
 
-List **5-7 key competencies** in bullet format, tailored to the specific job. For each competency, briefly explain how it adds value to the position.
+List **5-6 key competencies** in bullet format, tailored to the specific job. Standard competency pool to draw from:
+
+- **Policy Research & Analysis:** Comparative research across NZ and international contexts; synthesising complex legislative and policy frameworks into evidence-based recommendations
+- **Strategic Planning:** Led Plan Change 78 city centre workstream from concept to operative; precinct masterplanning and scenario planning
+- **Spatial & GIS Analysis:** ArcGIS and QGIS for spatial analysis and map-based analysis; Esri WebGIS training in progress
+- **Project Management:** Managed multi-party plan change processes including consultant procurement, programme management and statutory timeframes
+- **Stakeholder Engagement:** Prepared briefings and presentations for elected members, technical specialists and senior decision-makers
+- **Written Communication:** Policy memos, planning assessments, technical reports; consistently translates complex regulatory content for non-specialist audiences
+- **AI & Digital Workflow:** Daily use of Claude Code, ChatGPT, Gemini for research, drafting and content creation; built productivity tools using AI-assisted coding
+- **Regulatory Interpretation:** Deep expertise in Auckland Unitary Plan, RMA and NPS-UD; experience applying overlapping statutory frameworks
 
 ### Education
-- Always include your highest degrees
-- For senior roles, keep education brief (dates and titles only)
-- Include thesis topics when relevant to the target role
+- List BPlan(Hons) with institution and dates
+- Note Esri WebGIS MOOC as in progress
+- For GIS/geospatial roles, note planned formal GIS study (2027)
+- Keep brief for senior planning roles — credentials are assumed
 
 ### Professional Experience
-- Rewrite bullet points to emphasize aspects most relevant to the target role
-- Use 4-6 bullets for most recent role, 3-4 for previous, 2-3 for older
-- **Emphasize measurable results** where possible: "Reduced processing time by X%", "Model adopted by the team"
+- Use 4-5 bullets for Senior Policy Planner role, 3 for Intermediate Planner, 2 for Assistant Planner
+- Lead with Plan Change 78 and the concept-to-operative achievement as the anchor bullet
+- Reframe bullets to match the target role's language and priorities
+- **Emphasize measurable scope** where possible: "Auckland's largest city", "multi-party statutory process", "from concept to operative"
 
-### Handling Employment Gaps (Best Practice)
-If there is a gap in your employment history:
-- The gap should be explained matter-of-factly if needed
-- Describe how professional development continued during the gap
-- Frame as deliberate skill-building and career repositioning
-
-### Publications
-- Include Google Scholar link if applicable
-- Select 3-4 most relevant publications (not always all of them)
-- For non-academic roles, keep brief
-
-### Honors and Awards
-- Keep format brief, one line each
+### Handling the Career Transition
+When applying outside of planning:
+- Frame the move as deliberate and forward-looking: "Seeking to apply transferable research and analytical skills in [sector]"
+- Lead with the skills that transfer (research, analysis, written communication, project management, AI tools, spatial thinking)
+- Acknowledge the pivot directly in the cover letter — don't obscure it
 
 ### References
-- List 2-4 references with name, title, company, and contact
-- End with: "More references are available upon request."
-- **Do not attach reference letters** - employers typically contact references directly
+- End with: "References available upon request."
+- Do not attach reference letters
 
 ## Page Budget - Hard 2-Page Limit
 
-The CV **must** fit on exactly 2 pages when compiled. Use these content limits as a guide:
-
 | Section | Max budget |
 |---------|-----------|
-| Profile statement | 3-4 lines |
-| Skills | 5 items, each 1-2 lines |
-| Most recent role | 4-5 bullets |
-| Previous role | 2-3 bullets |
-| Older roles | 2 bullets (1 line each) |
-| Education | 2-3 entries |
-| Publications | 2-3 entries |
-| Awards | 3 entries, single line each |
+| Profile statement | 4-5 lines |
+| Core competencies | 5-6 items, each 1-2 lines |
+| Senior Policy Planner role | 4-5 bullets |
+| Intermediate Planner role | 3 bullets |
+| Assistant Planner role | 2 bullets |
+| Education | 2 entries |
 | References | "Available upon request." (single line) |
 
-**If in doubt, cut rather than squeeze.** Reducing `\vspace` or geometry scale to force-fit content makes the CV look cramped.
+**If in doubt, cut rather than squeeze.**
 
 ## Recommended Section Order
 
-The section order varies by role type:
-
-**For technical / data science / ML roles:**
+**For planning / policy / research roles:**
 1. Profile statement / elevator pitch
-2. Core competencies / Skills
+2. Core Competencies
 3. Professional Experience (reverse chronological)
-4. Education (reverse chronological)
-5. Languages
-6. Publications & Awards
-7. References
+4. Education
+5. References
 
-**For domain-specific / specialist roles:**
+**For GIS / spatial / technical roles:**
 1. Profile statement / elevator pitch
-2. Core competencies / Skills
-3. Education (reverse chronological) - credentials are a key qualifier
-4. Professional Experience (reverse chronological)
-5. Publications & Awards
-6. References
+2. Core Competencies (lead with GIS, spatial analysis, AI tools)
+3. Education (note GIS training prominently)
+4. Professional Experience
+5. References

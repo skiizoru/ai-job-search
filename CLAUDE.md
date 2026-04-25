@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,73 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Location:** Auckland, New Zealand (willing to relocate internationally or work remotely; priority markets: Nordic countries, Canada, Melbourne/Australia, Singapore)
+- **Languages:** English (native)
+- **Status:** Currently employed (Senior Policy Planner, Auckland Council)
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor of Planning (Honours)** (2008-2012) - University of Auckland
+  - Four-year accredited honours programme
+  - Topics: environmental planning, resource management law, spatial analysis, urban design, sustainable development, community engagement
+- **Esri WebGIS Apps MOOC** (in progress, 2025-2026) - self-directed GIS upskilling
+- **Geospatial Science/GIS study** (planned, 2027) - formal qualification in progress
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Policy Planner / Policy Planner** (Dec 2021 - present) - **Auckland Council** (Auckland, NZ)
+  - Led strategic research and analysis for Plan Change 78 city centre workstream, developing provisions from concept to made operative
+  - Delivered precinct masterplanning and scenario planning to test built form, density and urban design outcomes
+  - Conducted comparative policy research across NZ and international cities to inform responses to legislative reform
+  - Prepared memos, spatial analysis, and presentation materials for technical specialists, decision-makers and elected members
+  - Managed multi-party plan change processes: consultant procurement, programme management, statutory timeframes
+
+- **Intermediate Planner / Planner** (Aug 2016 - Nov 2021) - **Auckland Council** (Auckland, NZ)
+  - Assessed wide range of development applications (new buildings, heritage, subdivisions, coastal permits, contaminated land)
+  - Provided regulatory planning advice to applicants, consultants and the public
+  - Coordinated multidisciplinary inputs and negotiated solutions on contentious proposals
+  - Applied overlapping statutory frameworks to deliver consistent and robust planning outcomes
+
+- **Assistant Planner** (Mar 2015 - Aug 2016) - **Auckland Council** (Auckland, NZ)
+  - Front-line planning advice on regulatory frameworks and consent pathways
+  - Resource consent processing: compliance checks and statutory documentation
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Policy research & analysis, strategic planning, policy writing, stakeholder engagement, project management, statutory interpretation
+- **Secondary:** GIS/spatial analysis (ArcGIS, QGIS — self-taught, emerging), AI tools (Claude, ChatGPT, Gemini), vibe-coding with AI assistants, Excel
+- **Domain:** Urban/environmental planning, resource management law, land use policy, spatial analysis, urban design, sustainability
+- **Software:** Adobe Suite, Google Workspace, Microsoft Office, ArcGIS, QGIS, Claude Code
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- **Esri WebGIS Apps MOOC** - in progress (2025-2026)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Research-driven:** enjoys deep analysis and complex, evidence-based problem-solving
+- **Deliberate decision-maker:** gathers data and builds evidence-based arguments before acting
+- **Autonomous:** works well independently with minimal supervision; adapts to collaborative environments
+- **Written communicator:** strongest in written advocacy, synthesis, and structured argument
+- **Strengths:** research, synthesis, policy writing, argument construction, managing complexity
+- **Growth areas:** prefers analytical over adversarial; less suited to high-debate or politically charged environments
+- **Thrives in:** fast-paced, analytically demanding work with clear outcomes and room to use technology
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Deep-dive research and complex problem analysis
+- Using AI and technology to improve analytical workflows
+- Geospatial thinking and spatial data
+- Work with meaningful, tangible outcomes
 
-### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+### Target Sectors (in priority order)
+- **Geospatial/Urban Tech:** GIS companies, smart cities, urban analytics platforms
+- **Policy & Research:** Central/national government, think tanks, international development (UNDP, World Bank, ADB)
+- **Planning & Consulting:** International planning consultancies (Arup, WSP, Stantec, Beca)
+- **Sustainability/ESG:** Environmental policy, climate advisory
+- **Transport/Infrastructure:** Infrastructure advisory, transport planning
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Sales roles or people-facing roles with commercial targets
+- Finance, heavy mathematics, or accounting-focused work
+- Pure administration with no analytical component
+- Roles within New Zealand (preference for overseas/remote international)
+- High-conflict, adversarial, or heavily politicised environments
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
