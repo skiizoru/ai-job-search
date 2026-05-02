@@ -9,6 +9,9 @@ __pycache__/
 .venv/
 venv/
 
+# Portfolio tracker database (personal data)
+portfolio/portfolio.db
+
 # Compiled documents
 *.pdf
 *.aux

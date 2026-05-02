@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Tracker</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Portfolio Tracker</h1>
+  <button id="btn-refresh" onclick="refreshPortfolio()">&#8635; Refresh prices</button>
+</header>
+
+<!-- Summary cards -->
+<section id="summary-cards" class="cards">
+  <div class="card" id="card-value">
+    <div class="label">Market Value</div>
+    <div class="value" id="s-value">—</div>
+  </div>
+  <div class="card" id="card-cost">
+    <div class="label">Total Cost</div>
+    <div class="value" id="s-cost">—</div>
+  </div>
+  <div class="card" id="card-gain">
+    <div class="label">Unrealised P&amp;L</div>
+    <div class="value" id="s-gain">—</div>
+    <div class="sub" id="s-gain-pct">—</div>
+  </div>
+  <div class="card" id="card-div">
+    <div class="label">Total Dividends</div>
+    <div class="value" id="s-div">—</div>
+  </div>
+</section>
+
+<!-- Positions table -->
+<section>
+  <h2>Positions</h2>
+  <div class="table-wrap">
+    <table id="tbl-positions">
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Shares</th>
+          <th>Avg Cost</th>
+          <th>Live Price</th>
+          <th>Market Value</th>
+          <th>P&amp;L</th>
+          <th>P&amp;L %</th>
+          <th>Dividends</th>
+        </tr>
+      </thead>
+      <tbody id="positions-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Add transaction -->
+<section>
+  <h2>Record Transaction</h2>
+  <form id="form-tx" onsubmit="submitTransaction(event)">
+    <div class="form-row">
+      <label>Ticker
+        <input type="text" name="ticker" placeholder="e.g. AAPL" required />
+      </label>
+      <label>Type
+        <select name="type">
+          <option value="buy">Buy</option>
+          <option value="sell">Sell</option>
+        </select>
+      </label>
+      <label>Shares
+        <input type="number" name="shares" step="any" min="0.000001" required />
+      </label>
+      <label>Price per share
+        <input type="number" name="price" step="any" min="0.000001" required />
+      </label>
+      <label>Date
+        <input type="date" name="date" required />
+      </label>
+      <label>Fees
+        <input type="number" name="fees" step="any" min="0" value="0" />
+      </label>
+      <label>Notes
+        <input type="text" name="notes" />
+      </label>
+      <button type="submit">Add</button>
+    </div>
+  </form>
+</section>
+
+<!-- Transaction history -->
+<section>
+  <h2>Transaction History</h2>
+  <div class="table-wrap">
+    <table id="tbl-tx">
+      <thead>
+        <tr>
+          <th>Date</th><th>Ticker</th><th>Type</th><th>Shares</th>
+          <th>Price</th><th>Fees</th><th>Total</th><th>Notes</th><th></th>
+        </tr>
+      </thead>
+      <tbody id="tx-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Add dividend -->
+<section>
+  <h2>Record Dividend</h2>
+  <form id="form-div" onsubmit="submitDividend(event)">
+    <div class="form-row">
+      <label>Ticker
+        <input type="text" name="ticker" placeholder="e.g. MSFT" required />
+      </label>
+      <label>Amount received
+        <input type="number" name="amount" step="any" min="0.000001" required />
+      </label>
+      <label>Date
+        <input type="date" name="date" required />
+      </label>
+      <label>Notes
+        <input type="text" name="notes" />
+      </label>
+      <button type="submit">Add</button>
+    </div>
+  </form>
+</section>
+
+<!-- Dividend history -->
+<section>
+  <h2>Dividend History</h2>
+  <div class="table-wrap">
+    <table id="tbl-div">
+      <thead>
+        <tr><th>Date</th><th>Ticker</th><th>Amount</th><th>Notes</th><th></th></tr>
+      </thead>
+      <tbody id="div-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
