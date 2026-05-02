@@ -1,7 +1,5 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
@@ -16,9 +14,11 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Policy development, plan change management, section 32 evaluation, RMA/statutory planning compliance, hearing preparation and expert witness, GIS and spatial analysis (ArcGIS, QGIS), stakeholder and iwi consultation, technical report writing, project management, generative AI integration (Claude Code, NotebookLM, ChatGPT), cross-functional coordination, mentoring
+
+**Moderate match areas:** Central government policy analysis, planning consultancy (private sector), environmental remote sensing (in progress), research analyst roles (adjacent), GovTech/spatial technology policy
+
+**Weak match areas:** Software engineering or data science (beyond applied planning use), commercial property advisory, pure quantitative research, roles requiring a postgraduate degree beyond B.Planning(Hons), finance or economics-primary roles
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,11 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Urban policy planning (city centre, built form, densification, heritage), statutory plan change management (NZ/RMA), resource consent processing, local government policy and advisory, GIS-based spatial analysis, statutory hearings and expert witness, stakeholder and iwi engagement, public sector briefing and reporting
+
+**Moderate:** Central government policy (transferable analytical and statutory skills), international planning practice (common law jurisdictions), planning consultancy, research and policy analysis roles, GovTech product/policy advisory
+
+**Entry-level / thin:** Private sector commercial roles, academic research, engineering or infrastructure delivery, software/product development
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -44,13 +46,16 @@ Does the role and company culture match the behavioral profile?
 | 40-59 | Some friction areas |
 | 0-39 | Significant culture mismatch |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Good fit signals:** Evidence-based decision making, long-horizon projects, specialist expertise valued, collaborative but autonomous, quality over volume, policy or regulatory rigour expected, cross-disciplinary teamwork, room to mentor or develop others
+
+**Red flags to research:** High-volume transactional environment, sales or business development primary, startup with no structure or framework, culture of rapid judgment over careful analysis, micromanagement, no path to strategic or policy work
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Auckland (local): PASS
+- UK, Australia, Canada, Singapore, Nordics: PASS (actively seeking international relocation)
+- Remote roles (anywhere): PASS
+- Requires on-site in other locations: DISCUSS (relocation support, timeline)
+- Frequent international travel with no relocation: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +68,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Secure an international planning policy or strategic advisory role (UK, Australia, Canada, Singapore, or Nordics)
+- Progress to Planning Policy Manager or Strategic Policy Advisor level
+- Develop expertise at the intersection of urban policy, spatial technology, and generative AI
+- Build experience with comparative international planning frameworks
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether the tasks *can* be done, but whether they will *energise*.
+- Tasks that energise: Complex policy synthesis and analysis, expert witness and public advocacy, GIS and spatial analysis, AI tool development and integration, mentoring and knowledge transfer, shaping built environment outcomes
+- Tasks that drain: Routine administrative processing, high-volume transactional work, maintenance-only roles with no policy development component, sales or commercial development
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Life situation alignment:**
+- **Security:** Currently employed; can be selective — no urgency to accept a poor fit
+- **Flexibility:** Open to international relocation; remote roles also strongly preferred for international opportunities
+- **Professional development:** Actively building spatial/remote sensing and AI skills alongside planning practice
 
 ### 6. Salary Benchmark (Optional)
 
@@ -94,8 +99,6 @@ Present findings as:
 | [Category] index | XX.X (+/-X.X% vs baseline) |
 | Overall index | XX.X (+/-X.X% vs baseline) |
 ```
-
-Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
 
 If the salary tool is not configured, skip this section.
 
@@ -129,7 +132,7 @@ Present the evaluation as:
 
 ### Company Research Checklist
 - [ ] Checked company website (mission, values, recent news)
-- [ ] Checked review sites (Glassdoor, Jobindex, etc.)
+- [ ] Checked review sites (Glassdoor, etc.)
 - [ ] Checked LinkedIn for team size, recent hires, connections
 - [ ] Checked media for restructuring, growth, or workplace issues
 - [ ] Identified network contacts who may know the team/manager
@@ -152,7 +155,7 @@ Present the evaluation as:
 
 ## Pre-Application: Call the Employer (Best Practice)
 
-Before writing the application, consider whether the candidate should call the contact person listed in the posting. **Only call if there are substantive questions** - never call just to "be remembered."
+Before writing the application, consider whether the candidate should call the contact person listed in the posting. **Only call if there are substantive questions** — never call just to "be remembered."
 
 ### When to Suggest Calling
 - The posting has unclear or ambiguous requirements
@@ -169,5 +172,5 @@ Before writing the application, consider whether the candidate should call the c
 ### Rules for the Call
 - Prepare a 30-second "elevator pitch" about your background in case they ask
 - The call's purpose is **gathering information**, not delivering a pitch
-- Take notes - use what you learn to tailor the application
+- Take notes — use what you learn to tailor the application
 - Reference the conversation naturally in the cover letter ("After speaking with [name], I was especially drawn to...")
